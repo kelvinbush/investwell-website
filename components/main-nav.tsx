@@ -40,7 +40,7 @@ const MainNav = () => {
         <nav className={"flex items-center justify-between"}>
           <div className={"flex items-center gap-3 "}>
             <div className={"md:hidden"}>
-              <DropdownMenu open={open}>
+              <DropdownMenu open={open} onOpenChange={setOpen}>
                 <DropdownMenuTrigger asChild>
                   <Menu
                     color={"#151c1f"}
