@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import NavLink from "@/components/nav-link";
+import NavLink from "@/components/nav/nav-link";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 import {
