@@ -4,6 +4,7 @@ import Investors from "@/components/home/investors";
 import Streamlining from "@/components/home/streamlining";
 import KycProcess from "@/components/home/kyc-process";
 import Fund from "@/components/home/fund";
+import Empower from "@/components/home/empower";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Streamlining />
       <KycProcess />
       <Fund />
+      <Empower />
     </main>
   );
 }
