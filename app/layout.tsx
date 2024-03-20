@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import MainNav from "@/components/nav/main-nav";
+import Footer from "@/components/nav/footer";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={openSans.className}>
         <MainNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
