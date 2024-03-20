@@ -21,7 +21,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className={"mx-auto max-w-[1440px] space-y-12 px-3.5"}>
+    <div className={"mx-auto mt-16 max-w-[1440px] space-y-12 px-3.5"}>
       <h2 className={"text-center text-[32px] leading-[32px]"}>
         Streamlined for accuracy and efficiency
       </h2>

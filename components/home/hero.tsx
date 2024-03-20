@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           <h1 className={"text-4xl font-bold md:text-5xl"}>
             Simplify Your Fund Management.
           </h1>
-          <p className={"text-lg md:mt-6"}>
+          <p className={"text-lg text-blue-gray-300 md:mt-6"}>
             Investwell makes alternative investments understandable and
             accessible for everyone involved, giving power to limited partners
             (LPs), investor relations professionals, and compliance officers.
@@ -21,10 +22,12 @@ const Hero = () => {
           </Button>
         </div>
         <div>
-          <img
+          <Image
             src={"/hero-image.svg"}
             alt={"Investwell"}
             className={"h-auto w-full"}
+            width={600}
+            height={400}
           />
         </div>
       </div>

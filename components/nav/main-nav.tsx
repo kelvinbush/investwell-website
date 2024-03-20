@@ -35,8 +35,8 @@ const MainNav = () => {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <div className={"relative border-b border-black bg-white"}>
-      <div className={"sticky top-0 mx-auto max-w-[1440px] p-3.5"}>
+    <div className={"sticky top-0 z-10 border-b border-black bg-white"}>
+      <div className={"mx-auto max-w-[1440px] bg-white p-3.5"}>
         <nav className={"flex items-center justify-between"}>
           <div className={"flex items-center gap-3 "}>
             <div className={"md:hidden"}>
