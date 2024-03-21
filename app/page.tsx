@@ -8,7 +8,7 @@ import Empower from "@/components/home/empower";
 
 export default function Home() {
   return (
-    <main className={"relative mb-10"}>
+    <main className={"relative"}>
       <Hero />
       <Stats />
       <Investors />

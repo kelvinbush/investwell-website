@@ -53,13 +53,19 @@ interface EcardProps {
 
 const Ecard = ({ title, description, href }: EcardProps) => {
   return (
-    <div className={"bg-white px-3.5 py-4 text-left shadow-lg"}>
-      <h4 className={"text-xl font-semibold"}>{title}</h4>
-      <p className={"mt-4 text-sm text-blue-gray-300"}>{description}</p>
+    <div
+      className={
+        "flex flex-col justify-between bg-white px-3.5 py-4 text-left shadow-lg"
+      }
+    >
+      <div className={"mb-10"}>
+        <h4 className={"text-xl font-semibold"}>{title}</h4>
+        <p className={"mt-4 text-sm text-blue-gray-300"}>{description}</p>
+      </div>
       <Link
         href={href}
         className={
-          "mt-10 flex items-center gap-1 text-sm uppercase text-teal-700 transition-all duration-200 hover:underline"
+          "mt-auto flex items-center gap-1 text-sm uppercase text-teal-700 transition-all duration-200 hover:underline"
         }
       >
         Learn More
