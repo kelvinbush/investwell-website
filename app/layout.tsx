@@ -20,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={openSans.className}>
-        <MainNav />
-        {children}
-        <Footer />
+        <div className={"flex min-h-screen flex-col justify-between"}>
+          <MainNav />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
