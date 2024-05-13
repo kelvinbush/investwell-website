@@ -1,6 +1,6 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import RequestDemoButton from "@/components/ui/request-demo.button";
 
 const Fund = () => {
   return (
@@ -15,12 +15,9 @@ const Fund = () => {
       <p className={"md:text-2xl"}>
         Streamline, empower, succeed. Unlock efficient fund management today.
       </p>
-      <Button
-        className={"flex items-center gap-3 bg-teal-500 text-center text-white"}
-      >
-        Request Demo
+      <RequestDemoButton className={"bg-teal-500 text-center text-white"}>
         <MoveRight color={"#ffffff"} />
-      </Button>
+      </RequestDemoButton>
     </div>
   );
 };

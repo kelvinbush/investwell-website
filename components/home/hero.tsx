@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
+import RequestDemoButton from "@/components/ui/request-demo.button";
 
 const Hero = () => {
   return (
@@ -16,10 +16,9 @@ const Hero = () => {
             accessible for everyone involved, giving power to limited partners
             (LPs), investor relations professionals, and compliance officers.
           </p>
-          <Button className={"flex items-center gap-3"}>
-            Request Demo
+          <RequestDemoButton>
             <MoveRight color={"#ffffff"} />
-          </Button>
+          </RequestDemoButton>
         </div>
         <div>
           <Image

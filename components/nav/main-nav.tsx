@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import NavLink from "@/components/nav/nav-link";
 import { usePathname } from "next/navigation";
@@ -10,6 +9,7 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import RequestDemoButton from "@/components/ui/request-demo.button";
 
 const links = [
   {
@@ -19,10 +19,6 @@ const links = [
   {
     title: "Limited Partners",
     href: "/limited-partners",
-  },
-  {
-    title: "Fund Administrators",
-    href: "/fund-administrators",
   },
   {
     title: "Secondary",
@@ -75,7 +71,7 @@ const MainNav = () => {
               />
             ))}
           </ul>
-          <Button>Request Demo</Button>
+          <RequestDemoButton />
         </nav>
       </div>
     </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Page = () => {
   return (
     <div className={"text-center"}>
@@ -8,7 +6,7 @@ const Page = () => {
           "mt-20 text-2xl font-bold text-blue-gray-800 md:text-3xl lg:mt-32"
         }
       >
-        This page is under construction. <br /> Please check back later.
+        Coming soon ...
       </h1>
     </div>
   );

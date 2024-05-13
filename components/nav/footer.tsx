@@ -42,17 +42,12 @@ const Footer = () => {
                 Limited Partners
               </Link>
               <Link
-                href={"/fund-administrators"}
-                className={"text-[#9CA3AF] hover:underline"}
-              >
-                Fund Administrators
-              </Link>
-              <Link
                 href={"/secondary"}
                 className={"text-[#9CA3AF] hover:underline"}
               >
                 Secondary
               </Link>
+              email button with prepopulated subject
             </div>
             <div className={"flex flex-col gap-2"}>
               <h4
